@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className="flex items-center ml-2 space-x-2">
           <a
-            href="https://github.com/akashyadav30045"
+            href="https://github.com/akashyadav30045/Resume-Builder-and-Parser"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300 items-center"
