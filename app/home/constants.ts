@@ -9,7 +9,7 @@ import { Resume } from "../lib/redux/types";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "Akash Yadav",
+    name: "Your name",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
     email: "test@gmail.com",

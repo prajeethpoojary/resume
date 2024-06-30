@@ -8,6 +8,8 @@ import dynamic from "next/dynamic";
 import { useSetDefaultScale } from "./hooks";
 import { usePDF } from "@react-pdf/renderer";
 import { useEffect } from "react";
+import Link from "next/link";
+
 
 const ResumeControlBar = ({
   scale,
@@ -66,6 +68,11 @@ const ResumeControlBar = ({
         <ArrowDownTrayIcon className="h-4 w-4" />
         <span className="whitespace-nowrap">Download Resume</span>
       </a>
+
+      <a  href="/NewResume"
+          className="flex items-center gap-1 rounded-md border border-gray-300 px-3 py-0.5 hover:bg-gray-100"
+        >
+          <span className="whitespace-nowrap">change format</span></a>
     </div>
   );
 };

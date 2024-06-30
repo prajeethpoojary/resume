@@ -29,12 +29,8 @@ export const TopNavBar = () => {
               priority
             />
             <h1 className="text-xl whitespace-nowrap font-bold text-primary">
-              Resume Builder & Parser-
+              Resume Builder & Parser
               <span className="">  
-                <a className="m-1 text-gray-800"
-                  href="https://www.linkedin.com/in/akash-yadav-636973166/">
-                  (Built by Akash Yadav )
-                </a>
               </span>
             </h1>
           </div>
